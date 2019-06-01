@@ -1,0 +1,221 @@
+/*
+   Template Name: Welcome .
+  Aurthor Name: Nazmul Hasan .
+  Aurthor email : ndr889571@gmail.com .
+*/
+
+
+
+/* General Css */
+
+*{
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+button{
+  padding: 8px 25px;
+  background: #a8eaaf;
+  color:#000;
+  border:1px solid #fff;
+  border-radius: 8px;
+  width: 100px;
+  height: 40px;
+  cursor:pointer;
+}
+h1,p,span,h2{
+  color:#000;
+}
+/* Header css start Here */
+#header{
+  background: #aaa;
+  padding: 18px 0;
+}
+.logo{
+  width: 70%;
+  float: left;
+}
+.user_part{
+  width: 30%;
+  float: left;
+}
+.container:after{
+  content:'';
+  display:block;
+  clear:both;
+}
+.logo h1{
+  color:#fff;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-style:italic;
+  text-shadow: 3px 2px red;
+  font-family: 'Roboto Condensed', sans-serif;
+  cursor: pointer;
+}
+.sign_up{
+  width:50%;
+  float:left;
+}
+.sign_up button {
+  margin-left: 58px;
+}
+.sign_in{
+  width:50%;
+  float:left;
+}
+.sign_in button:hover
+{
+  background: #2c0dba;
+  color:#fff;
+  border:none;
+
+}
+.sign_up button:hover
+{
+  background: #09e5da;
+  color:#000;
+  display: block;
+  border:none;
+}
+.form ,.form_2{
+ display:none;
+}
+
+
+
+
+/* form css */
+.form{
+  width:100%;
+ background:#d9f7f5;
+  padding-top:5px
+}
+.form .logo{
+  width:50%;
+  float:left;
+  text-align: center;
+}
+.form .logo img{
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  margin:95px 0px 10px 0;
+
+}
+.form .us_p{
+  width:48%;
+  float:right;
+  text-align: center;
+}
+.form:after{
+  content:'';
+  display:block;
+  clear:both;
+}
+.form h1{
+  font-size: 30px;
+  font-family: tahoma;
+  font-weight: bold;
+}
+.form p{
+  font-size: 14px;
+  font-family: cursive;
+  font-weight: bold;
+  padding: 5px 0;
+}
+.form label{
+  display:block;
+  text-align:center;
+  font-size: 20px;
+  line-height: 35px;
+  font-family:tahoma;
+  font-weight: bold;
+  color:#747773;
+}
+.form input[type="text"], .form input[type="email"], .form input[type="password"] {
+	line-height: 35px;
+	width: 60%;
+  text-align:center;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+.form button{
+  margin: 10px 0;
+}
+
+/* login form */
+.form_2{
+  width:100%;
+ background:#d9f7f5;
+  padding-top:15px
+}
+.form_2 .logo{
+  width:45%;
+  float:left;
+  text-align: center;
+}
+.form_2 .logo img{
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  /* margin:95px 0px 10px 0; */
+
+}
+.form_2 .us_p_2 {
+	width: 50%;
+	float: right;
+	text-align: right;
+	padding-right: 16px;
+}
+.form_2:after{
+  content:'';
+  display:block;
+  clear:both;
+}
+.form_2 h1{
+  font-size: 30px;
+  font-family: tahoma;
+  font-weight: bold;
+}
+.form_2 p{
+  font-size: 14px;
+  font-family: cursive;
+  font-weight: bold;
+  padding: 5px 0;
+}
+.form_2 label {
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	line-height: 35px;
+	font-family: tahoma;
+	font-weight: bold;
+	color: #747773;
+	width: ;
+	padding-left: 241px;
+}
+.us_button_2{
+  padding-right:130px;
+}
+.form_2 input[type="email"],input[type="password"] {
+	line-height: 35px;
+	width: 60%;
+  text-align:center;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+.form_2 button{
+  margin: 10px 0;
+}
+.form_2 button:hover
+{
+  background: #2c0dba;
+  color:#fff;
+  border:none;
+
+}
