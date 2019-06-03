@@ -7,12 +7,18 @@
 
 
 /* General Css */
-
+/* body{
+  background-image: url('../images/7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+} */
 *{
   margin: 0;
   padding: 0;
   position: relative;
 }
+
 .container{
   width: 80%;
   margin: 0 auto;
@@ -92,7 +98,7 @@ h1,p,span,h2{
 /* form css */
 .form{
   width:100%;
- background:#d9f7f5;
+ background:#bbb;
   padding-top:5px
 }
 .form .logo{
@@ -151,7 +157,7 @@ h1,p,span,h2{
 /* login form */
 .form_2{
   width:100%;
- background:#d9f7f5;
+ background:#bbb;
   padding-top:15px
 }
 .form_2 .logo{
@@ -217,5 +223,145 @@ h1,p,span,h2{
   background: #2c0dba;
   color:#fff;
   border:none;
+
+}
+#sbutton:hover
+{
+  background: #09e5da;
+  color:#fff;
+  border:none;
+
+}
+
+
+
+
+
+
+
+/* menu part start here */
+
+#menu{
+  background:#0a0404;
+  padding: 5px 0;
+}
+.menu{
+  width: 600px;
+  margin: 0 auto;
+}
+#menu ul{
+  list-style:none;
+}
+
+#menu ul li{
+  float:left;
+  padding: 10px 30px;
+  background: #fff;
+  margin: 0 15px;
+  height: 20px;
+  line-height: 20px;
+  /* border: 3px solid #fff; */
+  border-radius: 4px
+}
+#menu ul li a{
+  color:#000;
+  text-decoration: none;
+  font-family: calibiri;
+  font-size: 15px;
+
+}
+#menu li:hover
+{
+  background: #8ef2db;
+  /* color:#fff; */
+
+}
+
+
+
+
+/* slider part start */
+
+  #content{
+    width: 100%;
+    margin: 0 auto;
+
+  }
+  .content_button{
+    width:100%;
+    margin:0 auto;
+  }.data{
+    width: 100%;
+  }
+  .slider{
+    width:100%;
+    height: 400px;
+    overflow:hidden;
+  }
+  .details{
+    background: black;
+    text-align: center;
+    margin-top:-70px;
+    opacity: .5;
+    padding: 5px 5px 5px 15px;
+  }
+  .details h1,
+  .details p{
+    color:#fff;
+  }
+  #play,
+  #pause,
+  #next,
+  #prev{
+    width:25px;
+    height:25px;
+    background: black;
+    border:1px solid #fff;
+    border-radius:50%;
+    text-align:center;
+    color:#fff;
+    position:absolute;
+    z-index: 10;
+    /* display:none; */
+  }
+  #play{
+    top: 20px;
+    left: 80%;
+    transform:rotate(90deg);
+  }
+  #pause{
+  top:20px;
+  left:77%;
+  transform:rotate(90deg);
+  }
+  #next{
+  top:300px;
+  left:80%;
+  }
+  #prev{
+  top:300px;
+  left: 17%
+  }
+  #play:hover,
+  #pause:hover,
+  #next:hover,
+  #prev:hover{
+    cursor:pointer;
+    background:#fff;
+    color:#000;
+  }
+
+
+
+/* validation part */
+
+/* validation form */
+.weak{
+  background:#000;
+  color:#fff;
+}
+/* validation part finish here */
+/* footer css start here */
+footer#footer{
 
 }
